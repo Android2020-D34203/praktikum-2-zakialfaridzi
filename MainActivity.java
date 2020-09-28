@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
         final TextView result = findViewById(R.id.hasil);
 
+
         hitung.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
