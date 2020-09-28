@@ -1,4 +1,4 @@
-package com.example.kalkulator;
+package com.example.calculator;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                 Integer answer=0;
                 String valoperator="";
 
-
+                
                 if(valueOperator.equals("+")){
                     answer = valueAngka1+valueAngka2;
                     result.setText(answer.toString());
